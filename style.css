@@ -1,0 +1,202 @@
+
+
+body {
+    background-image: url(background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    text-align: center;
+
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.233);
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.frontMain {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 255px;
+    padding-right: 255px;
+    padding-bottom: 20px;
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.582);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 84px;
+    color: white;
+}
+
+p {
+    font-family: Arial;
+    color: white;
+    padding-bottom: 50px;
+    margin: 0px;
+
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0px;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+}
+
+.gmap {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.438);
+
+
+}
+
+.mapwid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.menuMain {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 255px;
+    padding-right: 255px;
+    padding-bottom: 20px;
+
+}
+
+.menuContainer {
+    margin-left: 380px;
+    margin-right: 380px;
+}
+
+ .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+ }
+
+ .card {
+    width: 325px;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.342);
+    margin: 20px
+ }
+
+ .card img{
+    width: 100%;
+    height: auto;
+ }
+
+ .card-content {
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+
+ }
+
+ h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+button {
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 15px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0px;
+}
+
+button:hover {
+    color: gray;
+}
+
+h2 {
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.revMain {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 255px;
+    padding-right: 255px;
+    padding-bottom: 20px;
+
+
+}
+
+.revPolicy {
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+.revheader {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.restopic {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.438);
+
+}

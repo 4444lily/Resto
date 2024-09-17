@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adare Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="logo-adare-restaurant.png" alt="" />
+      </header>
+
+      <nav>
+        <a
+          href="index.html"
+          onmouseover="this.style.color='gray'"
+          onmouseout="this.style.color='white'"
+          >HOME</a
+        >
+        <a
+          href="menu.html"
+          onmouseover="this.style.color='gray'"
+          onmouseout="this.style.color='white'"
+          >MENU</a
+        >
+        <a
+          href="reservation.html"
+          onmouseover="this.style.color='gray'"
+          onmouseout="this.style.color='white'"
+          >RESERVATIONS</a
+        >
+      </nav>
+
+      <div class="revMain">
+        <h1>dine today.</h1>
+        <p>
+          Join us for an unforgettable dining experience at Adare. Reserve your
+          table and indulge in a delightful array of Irish cuisine and savor the
+          best of Irish cuisine in a warm, welcoming atmosphere.
+        </p>
+
+        <h2>RESTAURANT HOURS</h2>
+        <br />
+        <p>
+          Monday – Thursday: 10:00 AM – 9:00 PM
+          <br />
+          Friday – Saturday: 10:00 AM – 10:30 PM
+          <br />
+          Sunday: 11:00 AM – 9:00 PM
+          <br />
+          <br />
+        </p>
+
+        <button
+          type="button"
+          onclick="location.href='mailto:adare@booking.com?Subject=Reservation'"
+        >
+          EMAIL RESERVATION
+        </button>
+      </div>
+
+      <div class="mapwid">
+        <div style="display: flex; justify-content: center">
+          <iframe
+            class="gmap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9702.1426044257!2d-8.804191351676451!3d52.55992382197096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b460e31a2395b%3A0xa00c7a99731a450!2sAdare%2C+Co.+Limerick!5e0!3m2!1sen!2sie!4v1556107744605!5m2!1sen!2sie"
+            width="500"
+            height="350"
+            style="border: 0; border-radius: 10px; margin-bottom: 30px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <script
+          type="text/javascript"
+          src="//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=standard&iframe=true&overlay=false&domain=com&lang=en-US"
+        ></script>
+      </div>
+    </div>
+
+    <h3 class="revheader">RESERVATION POLICY</h3>
+    <div class="revPolicy">
+      <ol>
+        <li>
+          <b>Advance Reservations.</b> We recommend making reservations at least
+          24 hours in advance to ensure availability. Walk-ins are welcome, but
+          we cannot guarantee seating without prior booking.
+        </li>
+        <li>
+          <b>Reservation Time Limits.</b> For dinner reservations, we kindly
+          request that you arrive within 15 minutes of your reserved time. If
+          you anticipate being late, please notify us as soon as possible.
+        </li>
+        <li>
+          <b>Cancellation Policy.</b> Please provide at least 24 hours' notice
+          if you need to cancel or modify your reservation. Cancellations made
+          less than 24 hours in advance may incur a cancellation fee.
+        </li>
+        <li>
+          <b>No-Show Policy.</b> In the event of a no-show without prior
+          notification, we reserve the right to cancel the reservation and give
+          your table to other guests.
+        </li>
+      </ol>
+    </div>
+
+    <div class="container">
+      <footer>
+        <p>Main St, Blackabbey, Adare, Co. Limerick - Copyright 2017©</p>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
